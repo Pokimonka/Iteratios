@@ -42,7 +42,7 @@ def test_3():
         assert flat_iterator_item == check_item
 
     assert list(FlatIterator(list_of_lists_2)) == ['a', 'b', 'c', 'd', 'e', 'f', 'h', False, 1, 2, None, '!']
-    print('iterators task 1 complete')
+    print('iterators task 3 complete')
 
 # if __name__ == '__main__':
 #      test_3()

@@ -27,7 +27,7 @@ def test_4():
     assert list(flat_generator(list_of_lists_2)) == ['a', 'b', 'c', 'd', 'e', 'f', 'h', False, 1, 2, None, '!']
 
     assert isinstance(flat_generator(list_of_lists_2), types.GeneratorType)
-    print('iterators task 1 complete')
+    print('generators task 4 complete')
 
 # if __name__ == '__main__':
 #     test_4()
